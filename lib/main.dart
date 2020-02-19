@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Container(child: ListView(
               children: <Widget>[
                 Card(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.,
+                  child: Column(
                     children: <Widget>[
                       Text('Informe o valor que deseja converte: (Real)', style: perg),
                       TextField(controller: real, style: caixaTxt)
